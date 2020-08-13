@@ -58,14 +58,14 @@
     padding-left: 15px;
   }
   .navbar.navbar-light .navbar-toggler {
-    color: #71c21b;
+    color: #07bfdc;
     outline: 0 !important;
     border-radius: 0;
     padding: 0.25rem 0.55rem;
-    border-color: #71c21b;
+    border-color: #07bfdc;
   }
   .navbar.navbar-light .navbar-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(113, 194, 27, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(97, 191, 220, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
   .navbar.navbar-light .navbar-nav {
     background: #ffffff;
@@ -78,7 +78,7 @@
     color: #000000;
   }
   .navbar.navbar-light .navbar-nav .nav-item .nav-link.active {
-    color: #71c21b;
+    color: #07bfdc;
   }
   .navbar.navbar-light.is-sticky {
     padding: 8px 0;
@@ -108,14 +108,6 @@
   }
   .main-banner .bannercontent .btn {
     margin-right: 5px;
-  }
-  .main-banner .bannercontent .video-btn {
-    font-size: 14px;
-  }
-  .main-banner .bannercontent .video-btn i {
-    font-size: 34px;
-    top: 10px;
-    margin-right: 4px;
   }
   .main-banner .animation-box6 {
     display: none;
@@ -399,14 +391,14 @@
     padding-left: 15px;
   }
   .navbar.navbar-light .navbar-toggler {
-    color: #71c21b;
+    color: #07bfdc;
     outline: 0 !important;
     border-radius: 0;
     padding: 0.25rem 0.55rem;
-    border-color: #71c21b;
+    border-color: #07bfdc;
   }
   .navbar.navbar-light .navbar-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(113, 194, 27, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(97, 191, 220, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   }
   .navbar.navbar-light .navbar-nav {
     background: #ffffff;
@@ -419,7 +411,7 @@
     color: #000000;
   }
   .navbar.navbar-light .navbar-nav .nav-item .nav-link.active {
-    color: #71c21b;
+    color: #07bfdc;
   }
   .navbar.navbar-light.is-sticky {
     padding: 8px 0;

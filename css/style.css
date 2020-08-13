@@ -71,7 +71,7 @@ img {
 }
 
 .owl-theme .owl-nav [class*=owl-]:hover {
-  background: #5a6ff7;
+  background: #07bfdc;
   color: #ffffff;
 }
 
@@ -102,7 +102,7 @@ img {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span, .owl-theme .owl-dots .owl-dot.active span {
-  background: #5a6ff7;
+  background: #07bfdc;
 }
 
 /*section title*/
@@ -114,7 +114,7 @@ img {
 }
 
 .section-title span {
-  color: #71c21b;
+  color: #07bfdc;
   display: block;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -174,12 +174,16 @@ Navbar Area CSS
   font-family: "Ubuntu", sans-serif;
 }
 
-.navbar-light .navbar-brand span {
-  font-weight: 700;
-  color: #5a6ff7;
+.logo img{
+	width: 20%;
 }
 
-.navbar-light .navbar-brand:hover {
+.navbar-light {
+  font-weight: 700;
+  color: #07bfdc;
+}
+
+.navbar-light {
   color: #ffffff;
 }
 
@@ -196,7 +200,7 @@ Navbar Area CSS
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link:hover {
-  color: #5a6ff7;
+  color: #07bfdc;
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link span {
@@ -204,7 +208,7 @@ Navbar Area CSS
   display: inline-block;
   width: 35px;
   height: 3px;
-  background: #5a6ff7;
+  background: #07bfdc;
   right: 0;
   top: -3px;
   -webkit-transition: .4s;
@@ -215,7 +219,7 @@ Navbar Area CSS
   content: '';
   width: 25px;
   height: 3px;
-  background: #5a6ff7;
+  background: #07bfdc;
   position: absolute;
   right: 0;
   -webkit-transition: .4s;
@@ -235,11 +239,11 @@ Navbar Area CSS
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link.active {
-  color: #5a6ff7;
+  color: #07bfdc;
 }
 
 .navbar-light .navbar-nav .nav-item.active .nav-link {
-  color: #5a6ff7;
+  color: #07bfdc;
 }
 
 .navbar-light .navbar-nav .nav-item:last-child {
@@ -255,15 +259,15 @@ Navbar Area CSS
 }
 
 .navbar-light.is-sticky .navbar-nav .nav-item .nav-link:hover {
-  color: #5a6ff7;
+  color: #07bfdc;
 }
 
 .navbar-light.is-sticky .navbar-nav .nav-item .nav-link.active {
-  color: #5a6ff7;
+  color: #07bfdc;
 }
 
 .navbar-light.is-sticky .navbar-nav .nav-item.active .nav-link {
-  color: #5a6ff7;
+  color: #07bfdc;
 }
 
 /*================================================
@@ -371,33 +375,13 @@ Main Banner Area CSS
 }
 
 .bannercontent h1 span {
-  color: #5a6ff7;
+  color: #07bfdc;
 }
 
 .bannercontent p {
   color: #ffffff;
   font-size: 16px;
   margin-bottom: 30px;
-}
-
-.bannercontent .video-btn {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 500;
-  font-size: 15px;
-  color: #ffffff;
-  margin-left: 7px;
-  text-transform: capitalize;
-}
-
-.bannercontent .video-btn i {
-  font-size: 38px;
-  position: relative;
-  top: 11px;
-  margin-right: 7px;
-}
-
-.bannercontent .video-btn:hover, .bannercontent .video-btn:focus {
-  color: #5a6ff7;
 }
 
 .bannercontent .btn {
@@ -660,7 +644,7 @@ Main Banner Area CSS
 Subscribe Area CSS
 =================================================*/
 .subscribe-area {
-  background: #5a6ff7;
+  background: #07bfdc;
   padding-top: 50px;
   font-family: "Ubuntu", sans-serif;
   padding-bottom: 50px;
@@ -712,7 +696,7 @@ Subscribe Area CSS
   font-size: 25px;
   cursor: pointer;
   line-height: 50px;
-  color: #5a6ff7;
+  color: #07bfdc;
 }
 
 .subscribe-area form .validation-danger, .subscribe-area form .validation-success {
@@ -757,7 +741,7 @@ Welcome Area CSS
 }
 
 .single-box:hover i {
-  color: #5a6ff7;
+  color: #07bfdc;
 }
 
 .single-box h3 {
@@ -778,7 +762,7 @@ Welcome Area CSS
   height: 3px;
   border-radius: 0 0 5px 5px;
   left: 0;
-  background: #5a6ff7;
+  background: #07bfdc;
   bottom: 0;
   -webkit-transition: .4s;
   transition: .4s;
@@ -831,7 +815,7 @@ About Area CSS
 }
 
 .about-title h5 span {
-  color: #5a6ff7;
+  color: #07bfdc;
   font-weight: 400;
 }
 
@@ -862,7 +846,7 @@ About Area CSS
   -webkit-box-shadow: none;
           box-shadow: none;
   position: relative;
-  background: #5a6ff7;
+  background: #07bfdc;
   border-radius: 10px;
   -webkit-animation: animate-positive 2s;
           animation: animate-positive 2s;
@@ -917,7 +901,7 @@ About Area CSS
 }
 
 .why-choose-us .single-choose:hover i {
-  color: #5a6ff7;
+  color: #07bfdc;
 }
 
 .why-choose-us .single-choose h5 {
@@ -977,7 +961,7 @@ Services Area CSS
 }
 
 .single-services:hover i {
-  color: #5a6ff7;
+  color: #07bfdc;
 }
 
 .single-services h3 {
@@ -996,7 +980,7 @@ Services Area CSS
   right: 20px;
   top: 10px;
   font-size: 54px;
-  color: #5a6ff7;
+  color: #07bfdc;
   opacity: .25;
   -webkit-transition: .4s;
   transition: .4s;
@@ -1034,7 +1018,7 @@ Team Area CSS
   margin: 0;
   list-style-type: none;
   display: inline-block;
-  background: #5a6ff7;
+  background: #07bfdc;
   position: relative;
   top: -20px;
   padding: 3px 17px;
@@ -1060,7 +1044,7 @@ Team Area CSS
 .single-team ul li a:hover {
   border-color: #ffffff;
   background: #ffffff;
-  color: #5a6ff7;
+  color: #07bfdc;
 }
 
 .single-team h3 {
@@ -1091,6 +1075,13 @@ Portfolio Area CSS
 .single-work .work-image {
   display: block;
   position: relative;
+  transition: 0.2s ease-in-out;
+}
+
+.work-image:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+  box-shadow: 7px 5px 30px rgba(72, 73, 121, 0.15);
 }
 
 .single-work .work-image .popup-btn {
@@ -1113,7 +1104,7 @@ Portfolio Area CSS
 
 .single-work .work-image .popup-btn:hover {
   background: #ffffff;
-  color: #5a6ff7;
+  color: #07bfdc;
 }
 
 .single-work .work-image:hover .popup-btn, .single-work .work-image:focus .popup-btn {
@@ -1137,7 +1128,7 @@ Features Area CSS
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: #5a6ff7;
+  background: #07bfdc;
 }
 
 .features-area::before {
@@ -1166,7 +1157,7 @@ Features Area CSS
   left: 0;
   top: 0;
   width: 70px;
-  color: #5a6ff7;
+  color: #07bfdc;
   height: 70px;
   text-align: center;
   line-height: 70px;
@@ -1221,7 +1212,7 @@ Feedback Area CSS
 }
 
 .single-feedback:hover {
-  background: #5a6ff7;
+  background: #07bfdc;
 }
 
 .single-feedback .client-info {
@@ -1309,7 +1300,7 @@ Pricing Area CSS
 .tab-slider-nav .tab-slider-tabs::after {
   content: "";
   width: 50%;
-  background: #5a6ff7;
+  background: #07bfdc;
   height: 100%;
   position: absolute;
   top: 0;
@@ -1374,7 +1365,7 @@ Pricing Area CSS
   font-weight: 700;
   margin-top: 25px;
   margin-bottom: 25px;
-  color: #5a6ff7;
+  color: #07bfdc;
 }
 
 .pricing-table .pricing-features {
@@ -1398,7 +1389,7 @@ Pricing Area CSS
   background: transparent;
   text-transform: uppercase;
   color: #777777;
-  border: 1px solid #5a6ff7;
+  border: 1px solid #07bfdc;
 }
 
 .pricing-table .btn-primary:hover, .pricing-table .btn-primary:focus {
@@ -1407,17 +1398,17 @@ Pricing Area CSS
 }
 
 .pricing-table.active, .pricing-table:hover {
-  border: 1px solid #5a6ff7;
+  border: 1px solid #07bfdc;
 }
 
 .pricing-table.active .pricing-header, .pricing-table:hover .pricing-header {
-  background: #5a6ff7;
-  border-color: #5a6ff7;
+  background: #07bfdc;
+  border-color: #07bfdc;
   color: #ffffff;
 }
 
 .pricing-table.active .btn-primary, .pricing-table:hover .btn-primary {
-  background: #5a6ff7;
+  background: #07bfdc;
   color: #ffffff;
 }
 
@@ -1457,7 +1448,7 @@ Blog Area CSS
 }
 
 .single-blog-post .post-content h3 a:hover {
-  color: #5a6ff7;
+  color: #07bfdc;
 }
 
 .single-blog-post .post-content .read-more {
@@ -1466,14 +1457,14 @@ Blog Area CSS
 }
 
 .single-blog-post .post-content .read-more:hover {
-  color: #5a6ff7;
+  color: #07bfdc;
 }
 
 /*================================================
 Work With Us Area CSS
 =================================================*/
 .work-with-us {
-  background-color: #5a6ff7;
+  background-color: #07bfdc;
   z-index: 1;
   text-align: center;
   position: relative;
@@ -1507,7 +1498,7 @@ Work With Us Area CSS
 }
 
 .work-with-us .btn-primary {
-  color: #5a6ff7;
+  color: #07bfdc;
   background-color: #ffffff;
   border: 1px solid #ffffff;
 }
@@ -1559,14 +1550,14 @@ Contact Area CSS
   font-size: 35px;
   text-align: center;
   border-radius: 50%;
-  color: #5a6ff7;
-  border: 1px solid #5a6ff7;
+  color: #07bfdc;
+  border: 1px solid #07bfdc;
   -webkit-transition: .4s;
   transition: .4s;
 }
 
 .contact-box:hover .icon {
-  background: #5a6ff7;
+  background: #07bfdc;
   color: #ffffff;
 }
 
@@ -1586,7 +1577,7 @@ Contact Area CSS
 }
 
 .contact-box p a:hover {
-  color: #5a6ff7;
+  color: #07bfdc;
 }
 
 .get-in-touch {
@@ -1615,7 +1606,7 @@ Contact Area CSS
 }
 
 .get-in-touch ul li a {
-  color: #5a6ff7;
+  color: #07bfdc;
   margin-right: 5px;
 }
 
@@ -1629,17 +1620,19 @@ Contact Area CSS
   border-radius: 5px;
 }
 
-#contactForm .list-unstyled li {
-  color: red;
-}
-
-#contactForm #msgSubmit {
-  margin: 0;
-}
-
 #contactForm #msgSubmit.text-left {
   margin-top: 20px;
   font-size: 18px;
+}
+
+.send{
+	background-color: #07bfdc;
+	border-color: #07bfdc;
+}
+
+.send:hover{
+	background-color: #1bc1a5;
+	border-color: #1bc1a5;
 }
 
 /*================================================
@@ -1689,7 +1682,7 @@ Footer Area CSS
 }
 
 .footer-area li a:hover {
-  color: #5a6ff7;
+  color: #07bfdc;
 }
 
 /*================================================
@@ -1716,6 +1709,6 @@ Got Top CSS
 
 .go-top:hover {
   color: #ffffff;
-  background: #5a6ff7;
+  background: #07bfdc;
 }
 /*# sourceMappingURL=style.css.map */

@@ -29,11 +29,11 @@
             items: 1,
             nav: true,
             dots: false,
-            touchDrag: false,
-            mouseDrag: false,
+            touchDrag: true,
+            mouseDrag: true,
             autoplay: true,
-            animateOut: 'slideOutDown',
-            animateIn: 'slideInDown',
+            animateOut: 'slideOutRight',
+            animateIn: 'slideInLeft',
             smartSpeed: 700,
             loop: true,
             navText: [
@@ -54,23 +54,13 @@
             $(".main-banner .btn, .main-banner .video-btn").addClass("animated fadeInDown").css("opacity", "1");
         });
 
-        // Video Popup
-        $('.video-btn').magnificPopup({
-            disableOn: 320,
-            type: 'iframe',
-            mainClass: 'mfp-fade',
-            removalDelay: 160,
-            preloader: false,
-            fixedContentPos: false
-        });
-
         // About Slides
         $(".about-slides").owlCarousel({
             items: 1,
             nav: false,
             dots: true,
-            touchDrag: false,
-            mouseDrag: false,
+            touchDrag: true,
+            mouseDrag: true,
             autoplay: true,
             smartSpeed: 700,
             loop: true,
@@ -80,14 +70,7 @@
             ]
         });
 
-        // Popup Gallery
-		$('.popup-btn').magnificPopup({
-            type: 'image',
-            gallery:{
-                enabled:true
-            }
-        });
-
+  
         // Team Slider
         $('.team-slides').owlCarousel({
             loop: true,
@@ -158,9 +141,6 @@
             $(".tab-slider-nav li").removeClass("active");
             $(this).addClass("active");
         });
-
-        // Wow JS
-        new WOW().init();
 
         // Partner Slides
         $('.partner-slides').owlCarousel({
